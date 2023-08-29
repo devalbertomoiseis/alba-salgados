@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Deliciosos salgados para festas - Alba Salgados" />
+  <meta name="keywords" content="salgados para festas, salgadinhos, eventos, buffet, Alba Salgados" />
+  <meta name="author" content="Alba Salgados" />
+  <link rel="stylesheet" href="./css/extra.css" />
+  <link rel="stylesheet" href="./css/galeria-fotos.css" />
+  <link rel="stylesheet" href="./css/tabela.css">
+  <link rel="stylesheet" href="./css/contato.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsivo.css" />
+
+
+  <title>Alba Salgados - Deliciosos Salgados para Festas</title>
+</head>
+
+<body>
+
+  <section class="background">
+    <header class="container" id="header">
+      <a class="logo">ALBA <span>SALGADOS</span></a>
+      <nav id="nav">
+        <div id="btn-mobile">
+          <span id="hamburguer"></span>
+        </div>
+        <ul id="menu">
+          <li class="active"><a href="#id-home">Home</a></li>
+          <li><a href="#id-sobre">Sobre</a></li>
+          <li><a href="#id-salgados">Salgados</a></li>
+          <li><a href="#id-cardapio">Cardápio</a></li>
+          <li>
+            <a href="#id-contato"> Contato</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+
+
+  <main class="background-image">
+    <div>
+      <h1 class="titulo">Alba Salgados</h1>
+      <p>
+        Deliciosos Sabores para Transformar sua Festa em um Banquete Inesquecível! <br> Deleite-se com Nossas Delícias
+        Feitas com Amor e Sabor. Seja Bem-Vindo !
+      </p>
+      <a class="btn-principal" href="#id-cardapio">Cardápio</a>
+    </div>
+  </main>
+  <section class="container">
+    <h2 id="id-sobre" class="subtitulo">Sobre</h2>
+    <div class="container-secundario">
+      <div class="div-1">
+        <h3>Empresa - Alba Salgados</h3>
+        <p>
+          Há mais de uma década, dedicamos nossa paixão na criação dos salgados mais excepcionais da região. Essa
+          jornada desafiadora tem sido recompensadora, pois nossos salgados se tornaram uma verdadeira assinatura da
+          nossa marca. A cada mordida, é evidente que cada criação é impregnada com o carinho que nos distingue
+        </p>
+        <p>
+          Nossa essência gastronômica é simplesmente irresistível, sendo o toque perfeito para exaltar os instantes
+          repletos de alegria e celebração de nossos inúmeros clientes.
+        </p>
+      </div>
+      <div class="image-container div-2">
+        <img src="./img/background/Backgrond-Teste.jpg" alt="Imagem Flutuante" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="id-salgados" class="gallery">
+      <div class="photo" onclick="openModal();currentSlide(1)">
+        <img src="./img/salgados/empanado-camarao.jpg" alt="Empanado de Camarão" title="Empanado de Camarão" />
+        <h4>Empanado de Camarão</h4>
+      </div>
+      <div class="photo" onclick="openModal();currentSlide(2)">
+        <img src="./img/salgados/empadas-completas.png" alt="Empadas de Frango no Forno"
+          title="Empadas de Frango no Forno" />
+        <h4>Empadas de Frango</h4>
+      </div>
+      <div class="photo" onclick="openModal();currentSlide(3)">
+        <img src="./img/salgados/salgado-pastel.jpg" alt="Pasteis de Carne" />
+        <h4>Empanado de Camarão</h4>
+      </div>
+      <div class="photo" onclick="openModal();currentSlide(1)">
+        <img src="./img/salgados/coxinhas.jpg" alt="Coxinhas de Frango" title="Coxinhas de Frango" />
+        <h4>Coxinhas de Frango</h4>
+      </div>
+      <div class="photo" onclick="openModal();currentSlide(2)">
+        <img src="./img/salgados/barquinha-01.jpg" alt="Barquinhas" title="Barquinhas" />
+        <h4>Barquinhas</h4>
+      </div>
+      <div class="photo" onclick="openModal();currentSlide(3)">
+        <img src="./img/salgados/Mini-Quiche-Legumes-7.jpg" alt="Quiche de Queijo" title="Quiche de Queijo" />
+        <h4>Quiche de Queijo</h4>
+      </div>
+      <!-- Agrega más fotos aquí -->
+    </div>
+
+  </section>
+
+
+  <section class="background">
+    <div class="container div-quebra">
+      <p>
+        Nosso compromisso é sempre buscar aprimoramento, proporcionando a você um atendimento recheado de sabor,
+        carinho, respeito e um elevado nível de qualidade e higiene. Não hesite em fazer o seu pedido!
+      </p>
+    </div>
+  </section>
+
+
+  <section class="container">
+
+    <div class="servicos">
+      <h2 class="subtitulo">Serviços</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">Variedade de Salgados</div>
+          <div class="accordion-content">
+            <p> Oferecer uma ampla seleção de salgados gourmet, incluindo coxinhas, empadas, quiches, bolinhos, pastéis
+              e outras delícias.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">Opções Personalizadas</div>
+          <div class="accordion-content">
+            <p>Criar salgados personalizados de acordo com as preferências dos clientes ou para atender a necessidades
+              específicas de eventos.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">Kits para Festas</div>
+          <div class="accordion-content">
+            <p> Montar kits especiais de salgados para festas e eventos, proporcionando praticidade aos clientes.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">Encomendas para Ocasiões Especiais</div>
+          <div class="accordion-content">
+            <p>Aceitar encomendas personalizadas para ocasiões como aniversários, casamentos, chás e eventos
+              corporativos.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">Embalagens</div>
+          <div class="accordion-content">
+            <p> Investir em embalagens atraentes e criativas para garantir que os salgados cheguem aos clientes de
+              maneira elegante e intacta.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">Atendimento ao Cliente Personalizado</div>
+          <div class="accordion-content">
+            <p>
+              Fornecer um atendimento ao cliente excepcional, auxiliando os clientes nas escolhas dos produtos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="background cardapio">
+    <div class="container">
+      <h2 id="id-cardapio" class="subtitulo">Cardápio</h2>
+      <div class="tabela">
+        <h4>Salgados Comuns</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pastel Frito D/Carne</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel Frito Doce</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel Frito D/Frango</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel Doce Goiabada C/Queijo</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel Doce Banana C/Queijo</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel Doce D/Leite</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel D/Forno Frango</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Pastel D/Forno Presunto com Bacon</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Empada de Frango</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Cigano de Queijo</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Coxinha</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Risoles</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Croquete Frango Bacon/Provolone</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Bolinha D/Queijo</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Bolinha Frango com Bacon</td>
+              <td>R$ 65,00</td>
+            </tr>
+            <tr>
+              <td>Canudos</td>
+              <td>R$ 65,00</td>
+            </tr>
+
+            <!-- Adicione mais itens aqui -->
+          </tbody>
+        </table>
+      </div>
+      <div class="tabela">
+        <h4>Salgados Finos</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Quiche Frango C/Pimenta</td>
+              <td>R$ 90,00</td>
+            </tr>
+            <tr>
+              <td>Quiche D/Queijo</td>
+              <td>R$ 90,00</td>
+            </tr>
+            <tr>
+              <td>Quiche D/ Carne</td>
+              <td>R$ 90,00</td>
+            </tr>
+            <tr>
+              <td>Quiche D/Damasco</td>
+              <td>R$ 90,00</td>
+            </tr>
+            <tr>
+              <td>Canapés Frango C/Pimenta</td>
+              <td>R$ 90,00</td>
+            </tr>
+            <tr>
+              <td>Baguete Mini Salpicão</td>
+              <td>R$ 160,00</td>
+            </tr>
+            <tr>
+              <td>Baguete Morango</td>
+              <td>R$ 160,00</td>
+            </tr>
+            <tr>
+              <td>Quiche D/Camarão</td>
+              <td>R$ 200,00</td>
+            </tr>
+            <tr>
+              <td>Quiche Bacalhau</td>
+              <td>R$ 160,00</td>
+            </tr>
+            <tr>
+              <td>Croquete D/Bacalhau</td>
+              <td>R$ 160,00</td>
+            </tr>
+            <tr>
+              <td>Mini Hambúrguer</td>
+              <td>R$ 400,00</td>
+            </tr>
+            <tr>
+              <td>Mini Pizza</td>
+              <td>R$ 300,00</td>
+            </tr>
+            <tr>
+              <td>Pão de Queijo</td>
+              <td>R$ 200,00</td>
+            </tr>
+            <tr>
+              <td>Empanado D/Camarão</td>
+              <td>R$ 200,00</td>
+            </tr>
+            <!-- Adicione mais itens aqui -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <footer id="id-contato" class="container">
+    <h2 class="subtitulo">Contato</h2>
+    <section class="location-section">
+
+      <div class="address">
+        <h3>Endereço da Empresa</h3>
+        <p><span>Telefone:</span> (83)9.8709-7668.</p>
+        <p><span>Bairro:</span> Santo Antônio.</p>
+        <p><span>Rua:</span> Capitão Crizanto.</p>
+        <p><span>Número:</span> 192.</p>
+        <p><span>Cep:</span> 58.701-090.</p>
+      </div>
+      <div class="google-map">
+        <h3>Localização no Google Maps</h3>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.48667508082175!2d-37.27789015329613!3d-7.034326293290107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7af6012e3d3608f%3A0xb759e702df7f1df7!2sR.%20Cap.%20Crizanto%20-%20Santo%20Antonio%2C%20Patos%20-%20PB%2C%2058701-090!5e0!3m2!1spt-BR!2sbr!4v1692655230198!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/javascript.js"></script>
+</body>
+
+</html>

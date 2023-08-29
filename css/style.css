@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div header a {
+  text-decoration: none;
+  list-style: none;
+}
+
+header a.logo {
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.6rem 0 1rem 0;
+  font-family: "Source Serif 4", serif;
+  border: none;
+}
+
+header a.logo span {
+  color: #ebda41;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  padding: 2rem 0.4rem 2.8rem 0.4rem;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.2rem;
+}
+
+#menu li {
+  padding: 0.4rem 0.6rem;
+}
+
+#menu a {
+  font-size: 16px;
+  display: block;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none !important;
+}
+#menu a:hover {
+  color: #ca261a;
+}
+
+#menu li:hover {
+  border-radius: 0.6rem;
+  transition: 0.6s;
+  background-color: #ebda41;
+}
+
+#btn-mobile {
+  display: block;
+}
+
+/* main  */
+.background-image {
+  background-image: url("../img/background/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0;
+  max-width: 100%;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.background-image div {
+  background: #ffffff49;
+  padding: 2rem 0;
+  margin: 0 auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+.background-image div p {
+  color: #ca261a;
+  font-weight: bold !important;
+}
+/* main  */
+
+/*Sobre*/
+.container-secundario {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  margin: 4rem auto;
+}
+
+.container-secundario .div-1 {
+  max-width: 52%;
+}
+
+.container-secundario div h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: "Source Serif 4", serif;
+}
+
+.container-secundario div h3::after {
+  content: "";
+  border-bottom: 1px solid #ebda41;
+  margin: 0.4rem 0 2rem 0;
+  background-color: #ebda41;
+  display: block;
+}
+
+.container-secundario .div-1 p {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 2rem 4rem 0 0;
+}
+@media (max-width: 720px) {
+  .container-secundario .div-1 p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 2rem 2rem 4rem 2rem;
+    text-align: center;
+  }
+}
+
+.container-secundario .div-2 {
+  max-width: 40%;
+}
+
+.image-container {
+  position: relative;
+  animation: floatAnimation 5s ease-in-out infinite;
+}
+.image-container img {
+  border: 2px solid #ebda41;
+  display: block;
+  height: 330px;
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 920px) {
+  .container-secundario {
+    flex-direction: column;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  .container-secundario .div-1 {
+    max-width: 100%;
+  }
+  .container-secundario div h2::after {
+    margin: 1rem auto;
+  }
+  .container-secundario div p {
+    margin: 2rem 4rem;
+  }
+
+  .container-secundario .div-2 {
+    max-width: 100%;
+  }
+  .image-container {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/*div-quebra*/
+.div-quebra {
+  padding: 40px 0;
+}
+.div-quebra p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 620px) {
+  .div-quebra p {
+    padding: 1rem 2rem;
+  }
+}
+/*servicos*/
+.servicos {
+  padding: 2rem 0;
+}
+
+/* Estilos do acordeão */
+.accordion-item {
+  background-color: #fff;
+  border: 1px solid #ca261a;
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  padding: 20px 10px;
+  background-color: #ca261a;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}

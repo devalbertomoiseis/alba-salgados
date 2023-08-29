@@ -1,0 +1,55 @@
+.tabela {
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+}
+.tabela h4 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  border-left: 3px solid #ebda41;
+}
+.cardapio {
+  padding: 2rem 0;
+}
+.cardapio h2 {
+  color: #fff;
+}
+
+.cardapio h2::after {
+  content: "";
+  height: 4px;
+  width: 60px;
+  background-color: #fff;
+  display: block;
+  margin: 10px auto 0 auto;
+}
+/* Estilos para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ebda41;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+}
+
+th {
+  background-color: #ebda41;
+  color: #ca261a;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+}
